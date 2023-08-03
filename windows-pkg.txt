@@ -1,0 +1,9 @@
+wsl --set-default-version 2
+wsl --update
+
+winget install -q vscode --scope user
+winget install Docker.DockerDesktopEdge
+winget install Yubico.YubiKeyPersonalizationTool
+
+winget install LLVM
+
